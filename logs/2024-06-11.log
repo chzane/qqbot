@@ -1,0 +1,28 @@
+[2024-06-11 18:30:57] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 18:30:57] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 18:31:06] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 18:31:06] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 18:31:11] [WARNING]: 虚拟设备信息不存在, 将自动生成随机设备. 
+[2024-06-11 18:31:12] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 18:31:18] [WARNING]: 当前协议不支持二维码登录, 请配置账号密码登录. 
+[2024-06-11 18:31:34] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 18:31:34] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 18:31:39] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 18:32:47] [WARNING]: 获取sso sign时出现错误: Post "http://127.0.0.1:7778/sign": context deadline exceeded (Client.Timeout exceeded while awaiting headers). server: http://127.0.0.1:7778 
+[2024-06-11 18:33:48] [WARNING]: 获取sso sign时出现错误: Post "http://127.0.0.1:7778/sign": context deadline exceeded (Client.Timeout exceeded while awaiting headers). server: http://127.0.0.1:7778 
+[2024-06-11 18:33:48] [FATAL]: 登录时发生致命错误: query result error: wtlogin.trans_emp sub cmd 0x12 error: 49 
+[2024-06-11 18:35:49] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 18:35:49] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 18:35:54] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 19:32:43] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 19:32:43] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 19:32:48] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 19:32:54] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:32:55] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:32:56] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:32:57] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:32:58] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:32:59] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:33:00] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:33:01] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:33:02] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
