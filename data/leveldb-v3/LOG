@@ -37,3 +37,36 @@
 20:27:04.446871 version@stat F·[2] S·12KiB[12KiB] Sc·[0.50]
 20:27:04.459045 db@janitor F·4 G·0
 20:27:04.459062 db@open done T·16.650458ms
+20:40:33.660588 memdb@flush N·223 S·31KiB
+20:40:33.670540 memdb@flush created L0@12 N·223 S·7KiB "\x06\xb0\xe6\x91,v394":"\xff~>\xce,v358"
+20:40:33.671004 version@stat F·[3] S·20KiB[20KiB] Sc·[0.75]
+20:40:33.674362 memdb@flush committed F·1 T·13.326542ms
+20:40:33.675082 journal@remove removed @9
+20:41:16.867096 memdb@flush N·228 S·31KiB
+20:41:16.871139 memdb@flush created L0@14 N·228 S·5KiB "\b\x8c֎,v733":"\xff~>\xce,v518"
+20:41:16.871244 version@stat F·[4] S·26KiB[26KiB] Sc·[1.00]
+20:41:16.874271 memdb@flush committed F·1 T·6.972959ms
+20:41:16.875248 journal@remove removed @11
+20:41:16.875578 table@compaction L0·4 -> L1·0 S·26KiB Q·759
+20:41:16.883119 table@build created L1@15 N·98 S·9KiB "\x02\x1b\xaap,v197":"\xff~>\xce,v599"
+20:41:16.883254 version@stat F·[0 1] S·9KiB[0B 9KiB] Sc·[0.00 0.00]
+20:41:16.886180 table@compaction committed F-3 S-16KiB Ke·0 D·642 T·10.451333ms
+20:41:16.886478 table@remove removed @14
+20:41:16.886546 table@remove removed @12
+20:41:16.886895 table@remove removed @8
+20:41:16.887068 table@remove removed @7
+20:41:35.404633 memdb@flush N·231 S·31KiB
+20:41:35.409931 memdb@flush created L0@17 N·231 S·5KiB "\b\x8c֎,v953":"\xff\x99\x86\xe3,v941"
+20:41:35.410077 version@stat F·[1 1] S·14KiB[5KiB 9KiB] Sc·[0.25 0.00]
+20:41:35.412042 memdb@flush committed F·1 T·7.156666ms
+20:41:35.412969 journal@remove removed @13
+20:42:42.281066 memdb@flush N·250 S·31KiB
+20:42:42.284560 memdb@flush created L0@19 N·250 S·5KiB "\b\x8c֎,v1213":"\xff\x99\x86\xe3,v981"
+20:42:42.284685 version@stat F·[2 1] S·20KiB[11KiB 9KiB] Sc·[0.50 0.00]
+20:42:42.289017 memdb@flush committed F·1 T·7.393125ms
+20:42:42.290190 journal@remove removed @16
+20:43:58.360366 memdb@flush N·261 S·31KiB
+20:43:58.366203 memdb@flush created L0@21 N·261 S·4KiB "\b\x8c֎,v1477":"\xf8\xf4B\xfa,v1229"
+20:43:58.366345 version@stat F·[3 1] S·25KiB[15KiB 9KiB] Sc·[0.75 0.00]
+20:43:58.369437 memdb@flush committed F·1 T·7.259916ms
+20:43:58.370873 journal@remove removed @18

@@ -7,22 +7,36 @@ if __name__ == "__main__":
 
     message_list = {}
 
+    count = 0
+
     while True:
         new_message_list = qqbot.get_group_message(0, 630283757) 
 
-        if new_message_list == message_list:
-            continue
+        if new_message_list != message_list:
+            count += 1  
+            message_list = new_message_list 
+        else:
+            count = count
 
-        message_list = new_message_list
+        if count >= 5:
+            print("消息已满5条")
 
-        gpt_input = "下面是代补全的聊天记录：\n"
+            count = 0
 
-        for mag in message_list["data"]["messages"][-5:]:
-            nmag = f'{mag["sender"]["nickname"]}:{mag["message"]} \n'
-            gpt_input += nmag
+            message_list = new_message_list
 
-        gpt_response = qqbot.get_chatgpt_message(gpt_input)
+            gpt_input = "下面是代补全的聊天记录：\n"
 
-        qqbot.send_group_message(groupid, gpt_response)
+            for mag in message_list["data"]["messages"][-5:]:
+                nmag = f'{mag["sender"]["nickname"]}:{mag["message"]} \n'
+                gpt_input += nmag
 
-        time.sleep(5)
+            print(gpt_input)
+
+            gpt_response = qqbot.get_chatgpt_message(gpt_input)
+
+            print(gpt_response)
+
+            qqbot.send_group_message(groupid, gpt_response)
+
+        time.sleep(0.5)
