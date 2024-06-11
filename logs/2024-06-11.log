@@ -26,3 +26,21 @@
 [2024-06-11 19:33:00] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
 [2024-06-11 19:33:01] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
 [2024-06-11 19:33:02] [WARNING]: 获取sso sign时出现错误: Post "http://server.kaivps.cloud:18651/sign": dial tcp: lookup server.kaivps.cloud: no such host. server: http://server.kaivps.cloud:18651 
+[2024-06-11 19:40:04] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 19:40:04] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 19:40:09] [WARNING]: 虚拟设备信息不存在, 将自动生成随机设备. 
+[2024-06-11 19:40:09] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 19:40:15] [WARNING]: 当前协议不支持二维码登录, 请配置账号密码登录. 
+[2024-06-11 19:40:25] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 19:40:25] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 19:40:30] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 19:41:26] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 19:41:26] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 19:41:31] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 19:43:00] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
+[2024-06-11 19:52:12] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 19:52:19] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
+[2024-06-11 19:53:20] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2024-06-11 19:53:20] [WARNING]: 将在 5秒 后继续. 
+[2024-06-11 19:53:25] [WARNING]: 自动注册实例已关闭，请配置 sign-server 端自动注册实例以保持正常签名 
+[2024-06-11 19:53:44] [WARNING]: Protocol -> device lock is disabled. HTTP API may fail. 
