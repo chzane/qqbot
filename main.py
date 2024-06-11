@@ -22,10 +22,7 @@ if __name__ == "__main__":
             gpt_input += nmag
 
         gpt_response = qqbot.get_chatgpt_message(gpt_input)
-        print(gpt_response)
-
-        time.sleep(len(gpt_response) * 0.3)
 
         qqbot.send_group_message(groupid, gpt_response)
 
-        time.sleep(3)
+        time.sleep(5)

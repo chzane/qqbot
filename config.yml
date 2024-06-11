@@ -34,7 +34,7 @@ account: # 账号相关
   sign-servers: 
     - url: 'http://127.0.0.1:7778/'  # 主签名服务器地址， 必填
       key: ''  # 签名服务器所需要的apikey, 如果签名服务器的版本在1.1.0及以下则此项无效
-      authorization: ''   # authorization 内容, 依服务端设置，如 'Bearer xxxx'
+      authorization: '-'   # authorization 内容, 依服务端设置，如 'Bearer xxxx'
 
   # 判断签名服务不可用（需要切换）的额外规则
   # 0: 不设置 （此时仅在请求无法返回结果时判定为不可用）
@@ -147,7 +147,7 @@ servers:
 
   - http: # HTTP 通信设置
       address: 0.0.0.0:5700 # HTTP监听地址
-      version: 12     # OneBot协议版本, 支持 11/12
+      version: 11     # OneBot协议版本, 支持 11/12
       timeout: 5      # 反向 HTTP 超时时间, 单位秒，<5 时将被忽略
       long-polling:   # 长轮询拓展
         enabled: false       # 是否开启
